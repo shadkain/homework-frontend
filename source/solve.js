@@ -1,3 +1,3 @@
 'use strict';
 
-const solve = (exp, x) => new Function('x, exp', `return ${exp}`)(x);
+const solve = (exp, x) => new Function('x', `return ${exp}`)(x);
